@@ -59,8 +59,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
-  welcome
+def runner(user)
+  welcome(user)
   initial_round
   card_sum = 0
   until card_sum <=21
